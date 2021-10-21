@@ -1,0 +1,4 @@
+2021-10-21 15:08:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COMPTE" non trouvée
+Table "COMPTE" not found; SQL statement:
+insert into compte (id, date_creation, solde, type) values (null, ?, ?, ?) [42102-200]
